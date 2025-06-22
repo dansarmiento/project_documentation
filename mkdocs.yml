@@ -1,6 +1,6 @@
 
 # mkdocs.yml
-site_name: Github Project Documentation Portfolio
+site_name: dansarmiento's Projects
 site_url: https://dansarmiento.github.io/project_documentation/ 
 site_author: Daniel Sarmiento
 
@@ -27,35 +27,12 @@ theme:
     - content.code.copy
 
 nav:
-[
-{
-"Home": "index.md"
-},
-{
-"analytics_portfolio": "analytics_portfolio.md"
-},
-{
-"clarity_omop": "clarity_omop.md"
-},
-{
-"ColaboratoryNotebooks": "ColaboratoryNotebooks.md"
-},
-{
-"database_engineering_mysql": "database_engineering_mysql.md"
-},
-{
-"dbt_data_build_tool": "dbt_data_build_tool.md"
-},
-{
-"machine_learning_notebooks": "machine_learning_notebooks.md"
-},
-{
-"personal_projects": "personal_projects.md"
-},
-{
-"python_analytics_solutions": "python_analytics_solutions.md"
-},
-{
-"sql_solutions": "sql_solutions.md"
-}
-]
+  - "Home": index.md
+  - "analytics_portfolio": analytics_portfolio.md
+  - "clarity_omop": clarity_omop.md
+  - "ColaboratoryNotebooks": ColaboratoryNotebooks.md
+  - "database_engineering_mysql": database_engineering_mysql.md
+  - "dbt_data_build_tool": dbt_data_build_tool.md
+  - "machine_learning_notebooks": machine_learning_notebooks.md
+  - "python_analytics_solutions": python_analytics_solutions.md
+  - "sql_solutions": sql_solutions.md
