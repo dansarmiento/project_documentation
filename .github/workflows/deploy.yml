@@ -1,0 +1,38 @@
+# .github/workflows/deploy.yml
+name: Deploy Documentation
+
+# Trigger the workflow on pushes to the main branch
+on:
+  push:
+    branches:
+      - main
+
+# Grant GITHUB_TOKEN the permissions it needs to deploy to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out your repository's code so the job can access it
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python, which is needed by MkDocs
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      # Step 3: Install the documentation dependencies
+      - name: Install dependencies
+        run: pip install mkdocs-material
+
+      # Step 4: Build the site and deploy it to GitHub Pages
+      # This command does all the magic. It builds the HTML site
+      # and pushes it to a special 'gh-pages' branch.
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
