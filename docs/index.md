@@ -6,7 +6,7 @@
 
 ### About Me
 
-Senior Data Analyst and Analytics Engineer with extensive experience in the healthcare sector. I specialize in designing and deploying cloud-based data solutions that integrate clinical, financial, and operational data to support business intelligence and data-driven decision-making. My expertise lies in architecting robust ETL/ELT pipelines, developing predictive models, and creating intuitive dashboards that empower stakeholders and drive organizational improvements. I am passionate about mentoring and leading teams in analytics engineering best practices.
+I am an Analytics Engineer with extensive experience in the healthcare sector, I specialize in designing and deploying scalable, cloud-based data solutions in multi-cloud environments. I lead the integration of complex clinical, financial, and operational data from various EMR and enterprise systems to support real-time business intelligence and drive strategic decision-making. My technical expertise lies in architecting robust data pipelines using modern programming languages and orchestration tools , developing advanced analytical and predictive models to monitor key health and financial outcomes , and creating intuitive self-service dashboards that translate complex findings into clear, actionable insights for stakeholders. I am passionate about fostering a data-driven culture by mentoring analysts and leading training on analytics engineering best practices. This drive for innovation is reflected in my continuous professional development, where I actively pursue new skills and certifications in emerging data technologies and methodologies.
 
 ---
 
